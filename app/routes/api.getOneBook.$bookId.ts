@@ -1,10 +1,10 @@
-// นำเข้าฟังก์ชัน json จากไลบรารี @remix-run/node ซึ่งใช้ในการสร้างการตอบกลับ HTTP ในรูปแบบ JSON
+
 import { json } from "@remix-run/node";
 
-// นำเข้า type LoaderFunction จากไลบรารี @remix-run/node เพื่อใช้กำหนดประเภทของฟังก์ชัน loader
+
 import { type LoaderFunction } from "@remix-run/node";
 
-// นำเข้าข้อมูล 'books' จากไฟล์ utils/books ซึ่งเก็บข้อมูลเกี่ยวกับหนังสือทั้งหมด
+
 import { books } from "~/utils/books";
 
 // ประกาศฟังก์ชัน loader ที่เป็น async function ซึ่งใช้ในการโหลดข้อมูลหนังสือเฉพาะตัวตาม bookId ที่ส่งมาใน params
